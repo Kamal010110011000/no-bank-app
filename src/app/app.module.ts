@@ -2,33 +2,33 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { UserComponent } from './user/user.component';
-import { DashboardComponent } from './user/dashboard/dashboard.component';
-import { ProductComponent } from './product/product.component';
-import { UserProductComponent } from './user/dashboard/user-product/user-product.component';
-import { UserOrdersComponent } from './user/dashboard/user-orders/user-orders.component';
-import { UserHistoryComponent } from './user/dashboard/user-history/user-history.component';
-import { ProductListComponent } from './product/product-list/product-list.component';
-import { ProductDetailComponent } from './product/product-detail/product-detail.component';
 import { CreateUserComponent } from './create-user/create-user.component';
-import { ProductHoldersComponent } from './product/product-list/product-holders/product-holders.component';
+import { LoginComponent } from './login/login.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { UserComponent } from './dashboard/user/user.component';
+import { AccountDetailsComponent } from './dashboard/user/account-details/account-details.component';
+import { TransferComponent } from './dashboard/user/transfer/transfer.component';
+import { SellStockComponent } from './dashboard/user/sell-stock/sell-stock.component';
+import { StocksComponent } from './dashboard/stocks/stocks.component';
+import { StockListComponent } from './dashboard/stocks/stock-list/stock-list.component';
+import { StockDetailsComponent } from './dashboard/stocks/stock-details/stock-details.component';
+import { StockHoldersComponent } from './dashboard/stocks/stock-details/stock-holders/stock-holders.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    UserComponent,
-    DashboardComponent,
-    ProductComponent,
-    UserProductComponent,
-    UserOrdersComponent,
-    UserHistoryComponent,
-    ProductListComponent,
-    ProductDetailComponent,
     CreateUserComponent,
-    ProductHoldersComponent,
+    LoginComponent,
+    DashboardComponent,
+    UserComponent,
+    AccountDetailsComponent,
+    TransferComponent,
+    SellStockComponent,
+    StocksComponent,
+    StockListComponent,
+    StockDetailsComponent,
+    StockHoldersComponent,
   ],
   imports: [
     BrowserModule
