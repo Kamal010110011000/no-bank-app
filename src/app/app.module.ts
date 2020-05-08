@@ -10,6 +10,10 @@ import { UserProductComponent } from './user/dashboard/user-product/user-product
 import { UserOrdersComponent } from './user/dashboard/user-orders/user-orders.component';
 import { UserHistoryComponent } from './user/dashboard/user-history/user-history.component';
 import { ProductListComponent } from './product/product-list/product-list.component';
+import { ProductDetailComponent } from './product/product-detail/product-detail.component';
+import { CreateUserComponent } from './create-user/create-user.component';
+import { ProductHoldersComponent } from './product/product-list/product-holders/product-holders.component';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +25,10 @@ import { ProductListComponent } from './product/product-list/product-list.compon
     UserProductComponent,
     UserOrdersComponent,
     UserHistoryComponent,
-    ProductListComponent
+    ProductListComponent,
+    ProductDetailComponent,
+    CreateUserComponent,
+    ProductHoldersComponent,
   ],
   imports: [
     BrowserModule
